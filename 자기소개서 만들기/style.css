@@ -1,0 +1,42 @@
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #6e6c83;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.profile-img {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+#change-btn {
+  padding: 10px 20px;
+  margin-top: 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#change-btn:hover {
+  background-color: #45a049;
+}
+
+.info-box {
+  margin-top: 30px;
+  text-align: left;
+}
